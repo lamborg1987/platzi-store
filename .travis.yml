@@ -13,6 +13,7 @@ git:
 script:
   - yarn build
 notifications:
+  slack: dbascmconsis:OGMNp9zTyCRkYTY5tskK3Mjc
   email:
     recipients:
       - juztariz@consisint.com
