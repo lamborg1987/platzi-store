@@ -12,6 +12,14 @@ git:
 
 script:
   - yarn build
+notifications:
+  email:
+    recipients:
+      - juztariz@consisint.com
+      - uztarizjorge@gmail.com
+    on_success: always
+    on_failure: always
+  
 deploy:
   provider: pages
   skip_cleanup: true
